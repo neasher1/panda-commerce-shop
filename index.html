@@ -7,11 +7,13 @@
     <title>Panda Shop</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!-- custom styles -->
+    <link rel="stylesheet" href="style/style.css">
 </head>
 
 <body>
     <header class="container">
-        <nav class="navbar navbar-expand-lg fixed-top bg-light">
+        <nav class="navbar navbar-expand-lg fixed-top bg-light mb-5">
             <div class="container">
                 <a class="navbar-brand" href="#">
                     <img src="images/logo.png" alt="" class="d-inline-block align-text-top">
@@ -44,7 +46,7 @@
         <section class="mt-5">
             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner rounded">
-                    <div class="carousel-item active bg-info p-5">
+                    <div class="carousel-item active panda-bg-info p-5">
                         <div class="row d-flex align-items-center">
                             <div class="col-lg-7 col-md-8 col-12">
                                 <h1>Cool Dude Headphone</h1>
@@ -52,14 +54,14 @@
                                     front
                                     of funky world.</p>
                                 <h2>$420</h2>
-                                <button class="btn btn-warning">Buy Now</button>
+                                <button class="btn panda-buy-now-btn">Buy Now</button>
                             </div>
                             <div class="col-lg-5 col-md-4 col-12">
                                 <img src="images/banner-images/headphone.png" class="d-block w-100" alt="...">
                             </div>
                         </div>
                     </div>
-                    <div class="carousel-item bg-info p-5">
+                    <div class="carousel-item panda-bg-info p-5">
                         <div class="row d-flex align-items-center">
                             <div class="col-lg-7 col-md-8 col-12">
                                 <h1>Mega LCD TV For Sports</h1>
@@ -67,14 +69,14 @@
                                     front
                                     of funky world.</p>
                                 <h2>$420</h2>
-                                <button class="btn btn-warning">Buy Now</button>
+                                <button class="btn panda-buy-now-btn">Buy Now</button>
                             </div>
                             <div class="col-lg-5 col-md-4 col-12">
                                 <img src="images/banner-images/tv.png" class="d-block w-100" alt="...">
                             </div>
                         </div>
                     </div>
-                    <div class="carousel-item bg-info p-5">
+                    <div class="carousel-item panda-bg-info p-5">
                         <div class="row d-flex align-items-center">
                             <div class="col-lg-7 col-md-8 col-12">
                                 <h1>X-Box for your living room</h1>
@@ -82,7 +84,7 @@
                                     front
                                     of funky world.</p>
                                 <h2>$420</h2>
-                                <button class="btn btn-warning">Buy Now</button>
+                                <button class="btn panda-buy-now-btn">Buy Now</button>
                             </div>
                             <div class="col-lg-5 col-md-4 col-12">
                                 <img src="images/banner-images/xbox.png" class="d-block w-100" alt="...">
@@ -109,7 +111,7 @@
         <!-- categories start -->
         <section>
             <div class="container overflow-hidden text-center my-5">
-                <div class="row gy-5">
+                <div class="row gy-5 categories">
                     <div class="col-lg-4 col-md-6 col-12">
                         <div class="p-3 border rounded-3 bg-warning d-flex align-items-center justify-content-around">
                             <h1 class="text-white">Watch</h1>
@@ -147,7 +149,7 @@
                                 to additional.</p>
                         </div>
                         <div class="m-3">
-                            <div class="btn btn-warning">Buy Now</div>
+                            <div class="btn panda-buy-now-btn">Buy Now</div>
                         </div>
                     </div>
                 </div>
@@ -161,7 +163,7 @@
                                 to additional.</p>
                         </div>
                         <div class="m-3">
-                            <div class="btn btn-warning">Buy Now</div>
+                            <div class="btn panda-buy-now-btn">Buy Now</div>
                         </div>
                     </div>
                 </div>
@@ -175,7 +177,7 @@
                                 to additional.</p>
                         </div>
                         <div class="m-3">
-                            <div class="btn btn-warning">Buy Now</div>
+                            <div class="btn panda-buy-now-btn">Buy Now</div>
                         </div>
                     </div>
                 </div>
@@ -197,7 +199,7 @@
                                 to additional.</p>
                         </div>
                         <div class="m-3">
-                            <div class="btn btn-warning">Buy Now</div>
+                            <div class="btn panda-buy-now-btn">Buy Now</div>
                         </div>
                     </div>
                 </div>
@@ -211,7 +213,7 @@
                                 to additional.</p>
                         </div>
                         <div class="m-3">
-                            <div class="btn btn-warning">Buy Now</div>
+                            <div class="btn panda-buy-now-btn">Buy Now</div>
                         </div>
                     </div>
                 </div>
@@ -225,7 +227,7 @@
                                 to additional.</p>
                         </div>
                         <div class="m-3">
-                            <div class="btn btn-warning">Buy Now</div>
+                            <div class="btn panda-buy-now-btn">Buy Now</div>
                         </div>
                     </div>
                 </div>
@@ -235,7 +237,8 @@
 
         <!-- subscribe section start -->
         <section style="height:250px;"
-            class="container my-5 d-flex justify-content-center align-items-center bg-info rounded-3" id="Subscribe">
+            class="container my-5 d-flex justify-content-center align-items-center panda-bg-info rounded-3"
+            id="Subscribe">
             <div class="">
                 <h2>LET'S STAY IN TOUCH</h2>
                 <p>Get updates on sales, specials and more</p>
@@ -243,7 +246,7 @@
                     <div class="mb-3">
                         <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
                     </div>
-                    <button type="submit" class="btn btn-primary">Submit</button>
+                    <button type="submit" class="btn panda-buy-now-btn">Submit</button>
                 </form>
             </div>
         </section>
